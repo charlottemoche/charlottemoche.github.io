@@ -1475,7 +1475,9 @@ h1 {
 h2 {
   font-size: 1.8em;
   letter-spacing: -0.015em;
-  color: #646464
+  color: #646464;
+  margin-bottom: 0.2em;
+  margin-top: 0.8em;
 }
 
 h3,
@@ -1544,7 +1546,7 @@ dl,
 table,
 blockquote,
 form {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 /* Table */
@@ -2079,7 +2081,7 @@ body.is-preload #wrapper {
   transition: opacity 0.25s ease-in-out;
   margin-bottom: 0;
   position: relative;
-  padding: 3.5em 2.5em 2.5em 2.5em;
+  padding: 2em;
   width: 100%;
   border-radius: 10px;
 }
@@ -2348,4 +2350,8 @@ body.is-preload #wrapper {
   -webkit-background-clip: text !important;
   color: transparent !important;
   display: inline-block;
+}
+
+.white-bg {
+  background: white;
 }
