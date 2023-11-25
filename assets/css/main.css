@@ -1474,6 +1474,7 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  font-weight: 200;
   letter-spacing: -0.015em;
   color: #646464;
   margin-bottom: 0.2em;
@@ -2083,7 +2084,7 @@ body.is-preload #wrapper {
   position: relative;
   padding: 2em;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 #main > .panel.inactive {
@@ -2354,4 +2355,8 @@ body.is-preload #wrapper {
 
 .white-bg {
   background: white;
+}
+
+.light-text {
+  color: rgb(195, 195, 195)
 }
