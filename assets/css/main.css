@@ -1935,6 +1935,7 @@ a:hover {
   left: 50%;
   bottom: -0.75em;
   margin-left: -0.5em;
+  margin-bottom: 2px;
   border-bottom: solid 0em #717171;
   border-left: solid 0.5em transparent;
   border-right: solid 0.5em transparent;
@@ -2017,10 +2018,10 @@ a:hover {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  -moz-justify-content: center;
-  -webkit-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
+  -moz-justify-content: start;
+  -webkit-justify-content: start;
+  -ms-justify-content: start;
+  justify-content: start;
   -moz-transition: opacity 1s ease-in-out;
   -webkit-transition: opacity 1s ease-in-out;
   -ms-transition: opacity 1s ease-in-out;
@@ -2050,10 +2051,6 @@ body.is-preload #wrapper {
   #wrapper {
     padding: 1em 0;
     max-width: calc(100% - 2em);
-    -moz-justify-content: start;
-    -webkit-justify-content: start;
-    -ms-justify-content: start;
-    justify-content: start;
   }
 }
 
