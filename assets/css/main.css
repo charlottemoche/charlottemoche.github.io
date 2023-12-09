@@ -1848,7 +1848,7 @@ ul.actions li:first-child {
 }
 
 a {
-  color: #66ABB0; /* Set your desired color */
+  color: #8e8ee4; /* Set your desired color */
   text-decoration: none; /* Optional: Remove the underline if you don't want it */
 }
 
@@ -2348,7 +2348,7 @@ body.is-preload #wrapper {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #66ABB0, #DD9510) !important;
+  background: linear-gradient(90deg, #8e8ee4, #DB6D89) !important;
   -webkit-background-clip: text !important;
   color: transparent !important;
   display: inline-block;
