@@ -2369,9 +2369,9 @@ body.is-preload #wrapper {
 
 @media screen and (max-width: 736px) {
   .email-text {
-    font-size: 18px !important;
+    font-size: 14px !important;
   }
-  
+
   .promo-text {
     font-size: 20px !important;
     padding-left: 2rem;
