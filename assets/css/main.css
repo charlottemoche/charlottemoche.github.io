@@ -2366,3 +2366,15 @@ body.is-preload #wrapper {
 .light-text {
   color: rgb(195, 195, 195)
 }
+
+@media screen and (max-width: 736px) {
+  .email-text {
+    font-size: 18px !important;
+  }
+  
+  .promo-text {
+    font-size: 20px !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
